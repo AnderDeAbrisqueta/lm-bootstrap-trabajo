@@ -7,6 +7,15 @@
 }
 
 .hero {
-    background-color:gray;
-    padding-top: 1%;
+    position: relative;
+    background-color:rgba(83, 92, 104,1.0);
+    background-size: cover;
+    min-height: 775px;
+}
+
+.galeria {
+    position: relative;
+    background-color:rgba(83, 92, 104,1.0);
+    background-size: cover;
+    min-height: 300px;
 }
