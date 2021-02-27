@@ -19,7 +19,7 @@
 
 <body>
   <!--Barra de navegación-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/choza.jpeg" alt="" style="width: 20%">
@@ -93,7 +93,7 @@
   </header>
 
   <!--Historia-->
-  <section class="bg-light text-center">
+  <section class="bg-light text-center" id="historia">
     <div class="container">
       <div class="row">
         <div class="m-5">
@@ -272,17 +272,67 @@
               <div class="input-group-prepend">
                 <i class="fas fa-key input-group-text fa-lg"></i>
               </div>
-              <input type="password" name="" id="" class="form-control" placeholder="Repetir contraseña" </div>
-              <div class="input-group mb-3">
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Acepto las condiciones de uso y la política de
-                    privacidad</label>
+              <input type="password" name="" id="" class="form-control" placeholder="Repetir contraseña">
+            </div>
+            <!--Politica de privacidad-->
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Condiciones de uso y política de privacidad
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam animi quas dolor quam velit ducimus
+                    saepe, fugiat, quasi nesciunt reiciendis assumenda. Recusandae facilis facere deleniti neque illo
+                    necessitatibus! A, minus?
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est modi quaerat, atque tenetur rerum
+                    impedit enim exercitationem explicabo aliquam ad! Repudiandae harum perspiciatis quam alias corporis
+                    tenetur iusto repellendus officiis.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni, laborum quidem doloremque
+                    repellat perspiciatis quisquam dolor id optio repudiandae commodi! Ab explicabo facilis porro
+                    distinctio ut esse autem officia.
+
+                    Quas repellendus sed aut libero, minus maiores consequuntur ab possimus debitis similique alias
+                    magnam esse, temporibus expedita accusamus repudiandae unde dignissimos quisquam officia hic fugiat
+                    voluptas ullam! Consequuntur, quis doloremque.
+
+                    Laboriosam ipsum maiores voluptatibus ipsa nihil magnam perspiciatis quis cupiditate voluptas ut,
+                    animi tenetur quasi explicabo provident neque vitae. Aspernatur deserunt dolores earum porro impedit
+                    officia praesentium. Blanditiis, nemo quaerat.
+
+                    Laborum optio sint ad fuga, doloribus minus consequatur nesciunt. Consequatur dicta sit natus
+                    voluptatum repellat, laborum explicabo inventore perferendis mollitia neque consequuntur
+                    necessitatibus minima quibusdam recusandae. Minima ipsa minus cum?
+
+                    Quas aspernatur molestiae rem earum animi error labore, blanditiis in vel fuga cumque? Mollitia,
+                    facere error repellat ut non omnis deleniti iure odit magnam expedita eveniet veritatis consequuntur
+                    sed enim.
+                  </div>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Acepto las condiciones de uso y la política de
+                  privacidad</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+            </>
           </form>
         </div>
+        <!--Logo-->
         <div class="col-lg-3">
           <div class="card border-dark">
             <div class="card-body">
@@ -303,6 +353,7 @@
           <p><i class="fas fa-envelope-open-text fa-2x"></i> canaima.tierra.magica@venezuea.com</p>
           <p><i class="fas fa-phone-square-alt fa-2x"></i> +58 784 25 25</p>
         </div>
+        <!--Fontawesome-->
         <div class="col-md-4 text-center text-white py-5">
           <h3>Redes Sociales</h3>
           <div class="justify-content-center">
@@ -320,6 +371,7 @@
             </a>
           </div>
         </div>
+        <!--Logo-->
         <div class="col-md-4 text-center text-white py-5">
           <div class="card border-dark">
             <div class="card-body">
