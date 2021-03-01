@@ -16,7 +16,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
 -Navbar, para la barra de navegación:
 
  Barra de navegación
- <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/choza.jpeg" alt="" style="width: 20%">
@@ -24,7 +24,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
 
 -Cards para la galería de imágenes, las imágenes de la sección de registro y del Footer:
 
-<!--<div class="card border-dark">
+<div class="card border-dark">
             <div class="card-body">
               <img src="images/card-1.jpeg" class="d-block w-100" alt="..." class="img-fluid">
             </div>
@@ -32,7 +32,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
 
 -Carousel en la hero section:
 
-<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -61,7 +61,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
 
 Collapse (Acordion) para las condiciones de uso y política de privacidad:
 
- <!--Politica de privacidad
+ Politica de privacidad
             <div class="accordion" id="accordion">
               <div class="card">
                 <div class="card-header" id="headingOne">
@@ -83,7 +83,7 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
 
 -Form para el formulario de registro y la casilla de selección. 
 
-<!-- <form action="">
+<form action="">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <i class="fas fa-user input-group-text fa-lg"></i>
