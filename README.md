@@ -49,7 +49,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
         </ul>
       </div>
     </div>
-  </nav> -->
+  </nav> 
 
 -Cards para la galería de imágenes, las imágenes de la sección de registro y del Footer:
 
@@ -57,7 +57,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
             <div class="card-body">
               <img src="images/card-1.jpeg" class="d-block w-100" alt="..." class="img-fluid">
             </div>
-          </div> -->
+          </div> 
 
 -Carousel en la hero section:
 
@@ -86,7 +86,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div> -->
+            </div> 
 
 Collapse (Acordion) para las condiciones de uso y política de privacidad:
 
@@ -108,7 +108,7 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
                  
                   </div>
                 </div>
-              </div> -->
+              </div> 
 
 -Form para el formulario de registro y la casilla de selección. 
 
@@ -148,7 +148,7 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
               </div>
             </div>
             <button type="submit" class="btn btn-primary">Registrar</button>
-          </form> -->
+          </form> 
 
 Estas herramientas son de la sección de Components. También se usaron las herramientas del Layout de Bootstrap 4, como: container, grid y fluid que están por todo el código.
 
