@@ -15,13 +15,13 @@ CODIGOS DE BOOTSTRAP 4
 Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas de Bootstrap 4 como: 
 -Navbar, para la barra de navegación:
 
- <!--Barra de navegación-->
+ <!--Barra de navegación
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/choza.jpeg" alt="" style="width: 20%">
       </a>
-      <!--Botón hamburguesa-->
+      Botón hamburguesa
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
             <a class="nav-link" href="#hero">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#historia">Historia</a>
+            <a class="nav-link" href="#historia">Historia</a> 
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#leyenda">Leyenda</a>
@@ -49,19 +49,19 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
 -Cards para la galería de imágenes, las imágenes de la sección de registro y del Footer:
 
- <div class="card border-dark">
+<!-- <div class="card border-dark">
             <div class="card-body">
               <img src="images/card-1.jpeg" class="d-block w-100" alt="..." class="img-fluid">
             </div>
-          </div>
+          </div> -->
 
 -Carousel en la hero section:
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -86,11 +86,11 @@ Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
+            </div> -->
 
 Collapse (Acordion) para las condiciones de uso y política de privacidad:
 
- <!--Politica de privacidad-->
+ <!--Politica de privacidad
             <div class="accordion" id="accordion">
               <div class="card">
                 <div class="card-header" id="headingOne">
@@ -100,7 +100,7 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
                       Condiciones de uso y política de privacidad
                     </button>
                   </h2>
-                </div>
+                </div> 
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                   data-parent="#accordionExample">
@@ -108,11 +108,11 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
                  
                   </div>
                 </div>
-              </div>
+              </div> -->
 
 -Form para el formulario de registro y la casilla de selección. 
 
- <form action="">
+<!-- <form action="">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <i class="fas fa-user input-group-text fa-lg"></i>
@@ -148,7 +148,7 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
               </div>
             </div>
             <button type="submit" class="btn btn-primary">Registrar</button>
-          </form>
+          </form> -->
 
 Estas herramientas son de la sección de Components. También se usaron las herramientas del Layout de Bootstrap 4, como: container, grid y fluid que están por todo el código.
 
