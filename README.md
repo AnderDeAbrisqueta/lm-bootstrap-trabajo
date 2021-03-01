@@ -15,45 +15,16 @@ CODIGOS DE BOOTSTRAP 4
 Se ha usado el IDE Visual Studio Code. Además, se ha utilizado las herramientas de Bootstrap 4 como: 
 -Navbar, para la barra de navegación:
 
- <!--Barra de navegación
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+ Barra de navegación
+ <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/choza.jpeg" alt="" style="width: 20%">
       </a>
-      Botón hamburguesa
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#hero">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#historia">Historia</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#leyenda">Leyenda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#galeria">Galería de imágenes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#localizacion">Localización</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#registro">Registro</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> 
 
 -Cards para la galería de imágenes, las imágenes de la sección de registro y del Footer:
 
-<!-- <div class="card border-dark">
+<!--<div class="card border-dark">
             <div class="card-body">
               <img src="images/card-1.jpeg" class="d-block w-100" alt="..." class="img-fluid">
             </div>
@@ -137,8 +108,6 @@ Collapse (Acordion) para las condiciones de uso y política de privacidad:
               </div>
               <input type="password" name="" id="" class="form-control" placeholder="Repetir contraseña">
             </div>
-  
-            <!--Politica de privacidad-->
            
             <div class="input-group mb-3">
               <div class="form-group form-check">
